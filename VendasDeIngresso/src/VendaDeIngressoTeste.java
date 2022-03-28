@@ -23,7 +23,7 @@ public class VendaDeIngressoTeste {
     public void TipoDeficiente(){
         Assert.assertEquals(30, Compra.TipoDeficiente(100), delta);
     }
-    //TESTE PARA DEFICIENTE
+    //TESTE PARA GERAL
     @Test
     public void TipoGeral(){
         Assert.assertEquals(100, Compra.TipoGeral(100), delta);
