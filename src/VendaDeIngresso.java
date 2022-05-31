@@ -3,7 +3,8 @@ public class VendaDeIngresso {
     private double desconto;
     private double valor_final;
 
-     //SE FOR AFILIADO DESCONTO DE 60%1
+     //SE FOR AFILIADO DESCONTO DE 60%
+     //teste
     public double TipoAfiliado(double valor) {
          desconto = (60 * valor) / 100;
          valor_final = valor - desconto;   
