@@ -27,4 +27,8 @@ public class VendaDeIngresso {
         valor_final = valor;
        return valor_final;
    }
+      public double Tipo(double valor) {
+        valor_final = valor;
+       return valor_final;
+   }
 }
