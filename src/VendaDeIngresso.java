@@ -10,13 +10,13 @@ public class VendaDeIngresso {
         
         return valor_final;
     }
-     //SE FOR ESTUDANTE DESCONTO DE 50%
+     //PARA ESTUDANTE DESCONTO DE 50%
      public double TipoEstudante(double valor) {
         desconto = (50 * valor) / 100;
         valor_final = valor - desconto;     
        return valor_final;
    }
-     //SE FOR DEFICIENTE DESCONTO DE 70%
+     //PARA DEFICIENTE DESCONTO DE 70%
      public double TipoDeficiente(double valor) {
         desconto = (70 * valor) / 100;
         valor_final = valor - desconto;     
